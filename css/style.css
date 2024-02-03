@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*for handling width and height [it's adding margin(top,botton)for height] and margin(left,right)for width */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+header,
+footer {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.main-section-p {
+  font-size: 20px;
+}
+
+main {
+  background-color: #f8f9fa;
+  margin: 25px 0;
+  padding: 40px;
+}
+
+.main-title {
+  color: white;
+  border: 1px solid royalblue;
+  background-color: royalblue;
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+article {
+  border: 2px solid #55595c;
+  margin: 40px 30px;
+  padding-bottom: 10px;
+  display: inline-block; /*thanks god*/
+}
+
+.lesson-title {
+  color: white;
+  height: 110px;
+  background-color: #55595c;
+  padding-top: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 200px;
+}
+
+.note {
+  margin: 20px;
+}
+
+.details {
+  text-decoration: none;
+  border: 1px solid rgb(222, 52, 52);
+  background-color: rgb(222, 52, 52);
+  padding: 6px 10px;
+  color: white;
+  display: block; /*to not go outside and i can handle its width and height*/
+  width: 60%;
+  margin: 0 auto;
+}
+
+a:hover ,
+a:focus {
+  background-color: #832232;
+}
+
+.up-button,
+.down-button {
+  text-decoration: none;
+  color: #001d3d;
+  border: 1.5px solid black;
+  background: yellow;
+  border-radius: 26%;
+  margin-left: 95%;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 22px;
+}
+
+.up-button {
+  position: fixed;
+  bottom: 40px;
+  right: 1px;
+}
+
+.down-button {
+  position: fixed;
+  bottom: 11px;
+  right: 1px;
+}
